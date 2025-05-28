@@ -18,18 +18,39 @@ Uma calculadora desktop funcional e intuitiva, desenvolvida com Python e a bibli
 * **PySide6:** Framework para criação de interfaces gráficas (GUI).
 * **PyInstaller:** Ferramenta utilizada para empacotar o aplicativo em um executável (`.exe`), facilitando a distribuição.
 
-## 📁 Estrutura do Projeto
+ ## 📁 Estrutura do Projeto
 
-O projeto é organizado em módulos para facilitar a manutenção e a escalabilidade:
+    O projeto é organizado em módulos para facilitar a manutenção e a escalabilidade:
 
+    ```
+    calculadora-pyside6/
+    ├── _pycache_/           # Cache de módulos Python
+    ├── build/               # Arquivos de build (PyInstaller)
+    ├── dist/                # Executável compilado (PyInstaller)
+    ├── assets/              # Pasta para ativos como imagens, ícones, etc.
+    │   └── images/          # Contém screenshots do aplicativo.
+    ├── files/               # (Se tiver arquivos auxiliares, como ícones, etc.)
+    ├── pastasaida/          # (Se tiver alguma pasta de saída específica do seu app)
+    ├── saida_temp/          # (Se tiver alguma pasta temporária de saída)
+    ├── buttons.py           # Definição e lógica dos botões da calculadora, incluindo backspace.
+    ├── display.py           # Gerencia o visor onde os números e resultados são exibidos.
+    ├── info.py              # Componente para exibir informações adicionais (e.g., "Sua conta").
+    ├── main_window.py       # Define a janela principal do aplicativo e seus layouts.
+    ├── main.py              # Ponto de entrada da aplicação, onde os componentes são montados.
+    ├── styles.py            # Contém as configurações de estilo (CSS / QSS) da interface.
+    ├── utils.py             # Funções utilitárias diversas usadas no projeto (e.g., tratamento de números negativos).
+    ├── variables.py         # Variáveis e constantes globais do projeto.
+    └── Calculadora.spec     # Arquivo de configuração para o PyInstaller.
+    ```
+    ```
+    
 ## 🛠️ Como Executar o Projeto
 
 Siga os passos abaixo para rodar a calculadora no seu ambiente local:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Joao-Lucas-Code/calculadora-pyside6.git](https://github.com/Joao-Lucas-Code/calculadora-pyside6.git)
-    cd calculadora-pyside6
+    git clone https://github.com/Joao-Lucas-Code/calculadora-pyside6.git
     ```
 
 2.  **Crie e ative um ambiente virtual (recomendado):**
@@ -77,7 +98,7 @@ Sinta-se à vontade para abrir issues ou pull requests se tiver sugestões ou me
 ## 📧 Contato
 
 * **João Lucas**
-* **LinkedIn:** 'https://www.linkedin.com/in/joaogomes6/'
+* **LinkedIn:** [João Gomes](https://www.linkedin.com/in/joaogomes6/)
 
 ---
 
