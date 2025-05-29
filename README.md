@@ -100,10 +100,3 @@ Sinta-se à vontade para abrir issues ou pull requests se tiver sugestões ou me
 * **João Lucas**
 * **LinkedIn:** [João Gomes](https://www.linkedin.com/in/joaogomes6/)
 
----
-
-### **Principais Mudanças:**
-
-* **Seção de Funcionalidades:** Adicionei os itens "Suporte a Números Negativos" e "BackSpace (Apagar)" com suas descrições.
-* **Estrutura do Projeto:** Adicionei a pasta `assets/images` na estrutura sugerida (se você subiu a imagem para lá) e mencionei que `buttons.py` e `utils.py` podem ter relação com essas novas funcionalidades.
-* **Link da Imagem:** Mantive o placeholder com o caminho `assets/images/calculadora_screenshot.png` para você ajustar conforme o local real da sua imagem no GitHub.
